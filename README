@@ -1,1 +1,26 @@
 Repositorio de renos
+
+Para agregar este repositorio
+
+* Crear una carpeta del repositorio
+mkdir reno
+
+* Iniciar el repositorio
+cd reno
+git init
+
+* Configurar el origin del repositorio
+git remote add origin git@github.com:BalroG/reno.git
+
+* traer el repositorio
+git pull origin master
+
+* Modificar el Readme
+
+- agregar tu nombre al final el archivo
+
+* Comitear el cambio
+git commit -m "Me agregue al proyecto"
+
+* Mandar el commit al repositorio
+git push -u origin master
