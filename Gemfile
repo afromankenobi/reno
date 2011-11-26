@@ -6,7 +6,9 @@ gem 'rails', '3.1.3'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'execjs'
 
+gem 'therubyracer'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -22,7 +24,7 @@ gem 'jquery-rails'
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the web server
-# gem 'unicorn'
+ gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
